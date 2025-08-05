@@ -61,6 +61,17 @@
       "name": "Artificial Intelligence",
       "items": [
         {
+  "name": "NGL Spammer",
+  "desc": "Mengirim pesan spam anonim ke pengguna NGL",
+  "path": "/ai/spam-ngl?url=&pesan=&jumlah=",
+  "status": "ready",
+  "params": {
+    "url": "URL profil NGL, contoh: https://ngl.link/username",
+    "pesan": "Isi pesan anonim yang ingin dikirim",
+    "jumlah": "contoh: 1"
+  }
+        },
+        {
           "name": "LuminAI",
           "desc": "Advanced AI assistant powered by LuminAI for intelligent conversations",
           "path": "/ai/luminai?text=",
